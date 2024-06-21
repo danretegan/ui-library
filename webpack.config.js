@@ -27,6 +27,10 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"], //* Ordinea este importantă și este de la dreapta la stânga: mai întâi css-loader va încărca CSS-ul din fișierele CSS, și apoi style-loader va adăuga stilurile în documentul HTML.
+      },
     ],
   },
 };
