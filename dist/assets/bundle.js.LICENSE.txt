@@ -1,0 +1,11 @@
+//! Adaugă evenimentele pentru a afișa și ascunde bubble-ul:
+
+//! Creează elementul bubble și adaugă clasa și textul:
+
+//! add new active class to clicked tab:
+
+//! add new active class to content:
+
+//! remove current active class from content:
+
+//! remove current active classes:
